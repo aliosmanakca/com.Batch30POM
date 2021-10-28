@@ -38,7 +38,7 @@ public class C01_ReadExcel {
         System.out.println(cell);
     }
 
-    @Test
+    @Test (groups = "birinciGrup")
     public void test2() throws IOException, FileNotFoundException {
         // 7. Dosya yolunu bir String degiskene atayalim
         String dosyaYolu="src/test/java/resources/ulkeler.xlsx";

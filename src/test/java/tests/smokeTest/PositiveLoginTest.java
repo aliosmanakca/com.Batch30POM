@@ -7,7 +7,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class PositiveLoginTest {
-    @Test
+    @Test (groups = "birinciGrup" )
     public void positiveLoginTest(){
         //Bir test method olustur positiveLoginTest()
         //https://qa-environment.concorthotel.com/ adresine git
