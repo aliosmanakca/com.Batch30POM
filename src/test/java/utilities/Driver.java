@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class Driver {
 
     private Driver(){
-
+      // diger classlarda bu class dan obje olusturulamasin diye default constructor i yazip private yaptik
     }
 
     private static WebDriver driver;
