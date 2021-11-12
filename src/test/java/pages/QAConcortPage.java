@@ -11,7 +11,7 @@ import utilities.Driver;
 import java.util.List;
 
 public class QAConcortPage {
-    public WebDriver driver;
+    // public WebDriver driver;  bunu yazmaya gerek var mı ???
     public QAConcortPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }

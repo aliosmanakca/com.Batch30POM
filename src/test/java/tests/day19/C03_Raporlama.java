@@ -83,7 +83,7 @@ public class C03_Raporlama extends TestBaseRapor {
         // cikan sonuclardan ilkinin isminde java oldugunu test edelim
         WebElement ikinciUrun=Driver.getDriver().findElement(By.xpath("(//div[@class='s-expand-height s-include-content-margin s-latency-cf-section s-border-bottom'])[1]"));
         String ikinciElementYazisi=ikinciUrun.getText();
-        Assert.assertTrue(ikinciElementYazisi.contains("Java"));
-        extentTest.pass("ilk urun isminde java oldugu test edildi");
+        Assert.assertTrue(ikinciElementYazisi.contains("elma"));
+        extentTest.pass("ilk urun isminde elma oldugu test edildi");
     }
 }
